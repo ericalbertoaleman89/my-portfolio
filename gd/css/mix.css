@@ -1,0 +1,47 @@
+.container .mix{
+  display: none;
+}
+
+
+.img-responsive{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+.navbar-brand{
+     font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+  font-size: 35px;
+  
+    color: #a7a7a7 !important;
+}
+
+  
+
+#nb{
+     font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+  font-size: 25px;
+  color: #cdcdcd;
+  text-decoration: underline;
+}
+
+
+
+.navbar-inverse{
+
+background-color: white;
+ 
+   border-bottom-width:6px;
+   border-bottom-color: #E3E3E3;
+   border-bottom-style: solid;
+}
+
+
+
+.txt{
+     color: #7A7D7C;
+}
