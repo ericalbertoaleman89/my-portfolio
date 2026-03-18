@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+  body {
+background-color:#FFF !important;
+}
+#main_root{
+	background-image:url(../images/home_pg_floats/home_bg.jpg) ;
+	background-repeat: no-repeat;
+	overflow: inherit;
+	position: relative;
+	height: 768px;
+	width: 1366px;
+	border:0;
+	display:block;
+	margin:0 auto;
+}
+
+a img{border: 0}
+
+.slide_show{
+	overflow: hidden;
+	position: absolute;
+	alignment:left;
+	border:0;
+	left: 29px;
+	top: 313px;
+	width: 966px;
+	height: 365px;
+
+}
+
+#apDiv1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:556px;
+	height:312px;
+	z-index:1;
+}
+
+#apDiv2{
+	position:absolute;
+	left:6px;
+	top:665px;
+	width:743px;
+	height:79px;
+	z-index:2;
+}
+
+#menu{
+	position:absolute;
+	left:773px;
+	top:0px;
+	width:593px;
+	height:768px;
+	z-index:3;
+}
+
+#apDiv10{
+	position:absolute;
+	left:264px;
+	top:7px;
+	width:171px;
+	height:180px;
+	z-index:4;
+}
+
+#apDiv4{
+	position:absolute;
+	left:140px;
+	top:65px;
+	width:171px;
+	height:180px;
+	z-index:5;
+}
+
+#apDiv5{
+	position:absolute;
+	left:50px;
+	top:172px;
+	width:171px;
+	height:180px;
+	z-index:6;
+}
+
+#apDiv6{
+	position:absolute;
+	left:9px;
+	top:297px;
+	width:159px;
+	height:180px;
+	z-index:7;
+}
+
+#apDiv7{
+	position:absolute;
+	left:1px;
+	top:435px;
+	width:159px;
+	height:180px;
+	z-index:8;
+}
+
+#apDiv3{
+	position:absolute;
+	left:84px;
+	top:550px;
+	width:171px;
+	height:180px;
+	z-index:9;
+	
+	
+}
+
+#apDiv8{
+	position:absolute;
+	left:239px;
+	top:639px;
+	width:121px;
+	height:120px;
+	z-index:10;
+}
+
+#apDiv9{
+	position:absolute;
+	left:433px;
+	top:581px;
+	width:159px;
+	height:180px;
+	z-index:11;
+}
+
+

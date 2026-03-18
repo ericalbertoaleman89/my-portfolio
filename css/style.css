@@ -1,0 +1,108 @@
+.bodybg {
+	background-image: url("../2011/images/istock-4463469.png"); background-repeat: repeat; background-color: rgb(255, 255, 255);
+}
+#centeredmenu {
+	width: 995px; font-family: Verdana, Geneva, sans-serif;
+}
+#centeredmenu {
+	background: rgb(238, 238, 238); list-style: none; margin: 0px; padding: 0px 4px 0px 0px; line-height: 1; font-family: Verdana, Geneva, sans-serif;
+}
+#centeredmenu ul {
+	background: rgb(238, 238, 238); list-style: none; margin: 0px; padding: 0px 4px 0px 0px; line-height: 1; font-family: Verdana, Geneva, sans-serif;
+}
+#centeredmenu ul {
+	height: 22px; padding-left: 12px; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+#centeredmenu ul li a {
+	padding: 3px 5px; color: rgb(68, 68, 68); font-size: 0.9em; font-weight: bold; text-decoration: none; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#centeredmenu ul li a:hover {
+	background: red; color: white;
+}
+#centeredmenu li {
+	width: 10em; float: left;
+}
+#centeredmenu ul li {
+	width: auto; text-align: center; padding-right: 2px; padding-left: 2px;
+}
+#centeredmenu ul li ul li {
+	text-align: left;
+}
+#centeredmenu li ul {
+	left: -999em; width: 15em; height: auto; position: absolute;
+}
+#centeredmenu li ul ul {
+	margin: -1em 0px 0px 15em;
+}
+#centeredmenu ul li ul li {
+	width: 100%;
+}
+#centeredmenu ul li ul li a {
+	font-size: 0.8em; font-weight: normal;
+}
+#centeredmenu li:hover ul ul {
+	left: -999em;
+}
+#centeredmenu li:hover ul ul ul {
+	left: -999em;
+}
+#centeredmenu li.sfhover ul ul {
+	left: -999em;
+}
+#centeredmenu li.sfhover ul ul ul {
+	left: -999em;
+}
+#centeredmenu li:hover ul {
+	left: auto;
+}
+#centeredmenu li li:hover ul {
+	left: auto;
+}
+#centeredmenu li li li:hover ul {
+	left: auto;
+}
+#centeredmenu li.sfhover ul {
+	left: auto;
+}
+#centeredmenu li li.sfhover ul {
+	left: auto;
+}
+#centeredmenu li li li.sfhover ul {
+	left: auto;
+}
+#content {
+	color: rgb(204, 204, 204); clear: left;
+}
+.leftcolumn {
+	width: 200px; height: 500px; color: rgb(255, 255, 255); padding-left: 8px; font-family: "Courier New", Courier, monospace; font-size: 15px; text-decoration: none; background-image: url("../2011/images/bg-roadsurface.png");
+}
+.rightcolumn {
+	width: 600px; padding-left: 20px; background-image: url("../2011/images/bg-roadsurface-right.png");
+}
+.footer {
+	color: rgb(255, 255, 255); font-family: Verdana, Geneva, sans-serif; font-size: 10px; text-decoration: none;
+}
+.title_1 {
+	color: rgb(0, 0, 0); font-family: Verdana, Geneva, sans-serif; font-size: 18px; font-style: normal; font-weight: bold; text-decoration: underline;
+}
+.boytext {
+	color: rgb(0, 0, 0); font-family: Verdana, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.galleryWrapper {
+	margin: 0px auto; width: 720px; overflow: hidden; z-index: 1000; overflow-x: auto; overflow-y: hidden;
+}
+.galleryItems {
+	list-style: none; margin: 0px; padding-left: 0px; display: block;
+}
+.galleryItems li {
+	padding: 0px 4px; float: left; display: inline;
+}
+.galleryItems li img {
+	border: 1px solid rgb(119, 119, 119);
+}
+.galleryItems a {
+	text-decoration: none; display: block;
+}
+.galleryItems a:hover img {
+	filter: alpha(opacity=70); opacity: 0.7;
+}

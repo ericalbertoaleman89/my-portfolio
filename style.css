@@ -1,0 +1,201 @@
+.bodybg {
+	background-image: url(../2011/images/istock-4463469.png);
+	background-repeat: repeat;
+	background-color: #fff;
+}
+
+/* ******************************************************** */
+/* 			Main Menu code, added by Blair 					*/
+/* The following code is based on Son of Suckerfish			*/
+/* The original design is avaiable at:						*/
+/* http://www.htmldog.com/articles/suckerfish/dropdowns/	*/
+/* ******************************************************** */
+
+
+#centeredmenu {
+	width:1100px; /* This controls the overall size of the menu div, if you make it larger it will stretch the page out so be careful editing this. */
+	font-family:Verdana, Geneva, sans-serif; /* Menu font */
+}
+
+#centeredmenu, #centeredmenu ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	background:#EEE; /* This is the light grey background that is used by the entire menu system */
+	padding-right:4px;
+	font-family:Verdana, Geneva, sans-serif; /* Menu font */
+}
+
+#centeredmenu ul{
+border-bottom:1px solid black; /* This controls the black border that runs along the bottom of the main menu */
+height:22px;
+padding-left:12px; /* manuually centers the menu on the page due to floating elements */
+}
+
+#centeredmenu ul li a {
+	display: block;
+	color:#444;	/* The color of the text of the menu */
+	padding-top:3px;	/* These control how big each menu element is */
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:0.9em; /* The main menu font size is controlled here */
+	font-weight:bold;
+	text-decoration:none;
+	border-bottom:1px solid #DDD; /* Each link item is given this light grey border however the sublevel menus are the only ones that you can see using it */
+	
+}
+
+/* If you want to change the color of the hover, you can edit these settings here. */
+#centeredmenu ul li a:hover {
+	background:red;		
+	color:white;
+}
+
+#centeredmenu li { /* all list items */
+	float: left;
+	width: 10em; /* width needed or else Opera goes nuts */
+}
+
+#centeredmenu ul li {
+	width:auto;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:center;
+}
+
+#centeredmenu ul li ul li {
+	text-align:left;
+}
+
+#centeredmenu li ul { /* second-level lists */
+	position: absolute;
+height:auto;
+	width: 15em; /* This controls the width of the submenu items, if you edit this, make sure you edit the next element below */
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+/* Besure that the last margin matches the width of the element above */
+#centeredmenu li ul ul { /* third-and-above-level lists */
+	margin: -1em 0 0 15em;
+	
+}
+
+#centeredmenu ul li ul li {
+
+	width:100%;
+}
+
+/* This overrides the original link size and weight settings so that they are different from the main menu. */
+#centeredmenu ul li ul li a {
+font-size:0.8em;
+font-weight:normal;
+}
+
+#centeredmenu li:hover ul ul, #centeredmenu li:hover ul ul ul, #centeredmenu li.sfhover ul ul, #centeredmenu li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#centeredmenu li:hover ul, #centeredmenu li li:hover ul, #centeredmenu li li li:hover ul, #centeredmenu li.sfhover ul, #centeredmenu li li.sfhover ul, #centeredmenu li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+/* **************************************************** */
+/* 			End of menu CSS								*/
+/* **************************************************** */
+
+#content {
+	clear: left;
+	color: #ccc;
+}
+
+
+
+
+.leftcolumn {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	text-decoration: none;
+	background-image: url(../2011/images/bg-roadsurface.png);
+	width: 200px;
+	height: 500px;
+	padding-left: 8px;
+	color: #FFF;
+}
+
+.rightcolumn {
+	background-image: url(../2011/images/bg-roadsurface-right.png);
+	width: 600px;
+	padding-left: 20px;
+}
+
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.title_1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+
+
+.galleryWrapper {
+  width               : 915px;
+  height			  :	450px;
+ 
+  overflow            : scroll;
+  overflow-x		  : auto; 
+  overflow-y		  : auto;
+  padding-right: 0px;
+  margin-left: 0px;
+ 
+  z-index			  :1000;
+}
+
+.galleryItems {
+  display             : block;
+  margin              : 0;
+  list-style          : none;
+  padding-left        : 0;
+  
+}
+
+.galleryItems li {
+  display             : inline;
+  float               : left;
+  padding             : 5px 10px;
+  
+}
+
+.galleryItems li img {
+  border              : 1px solid #777;
+  
+}
+
+.galleryItems a {
+  display             : block;
+  text-decoration     : none;
+  
+  
+}
+
+.galleryItems a:hover img {
+  filter              : alpha(opacity=70);
+  opacity             : 0.7;
+  
+}
+
+
+#m_container {
+
+	
+}
