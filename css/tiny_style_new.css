@@ -1,0 +1,101 @@
+* {margin:0; padding:0}
+body {
+	color:#666666;
+	background:#ddd;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+}
+
+
+.slide_show{
+	overflow: hidden;
+	position: absolute;
+	alignment:left;
+	border:0;
+	left: 30px;
+	top: 170px;
+	width: 1300px;
+	height: 540px;
+
+}
+
+#wrapper {width: 1290px;
+ height: 520px; 
+ margin-top:3px;
+ margin-bottom:8px;
+ margin-left:5px;
+  margin-right:5px; }
+#container {
+	position:relative;
+	background:#fff;
+	padding:10px;
+	height:510px;
+	width:1287;
+	border-left:1px solid #999999;
+	border-top:2px solid #999999;
+	box-shadow: 5px 5px 5px #666666;
+
+}
+.sliderbutton {
+	float:left;
+	width:189px;
+	height:235px;
+	margin-top:120px;
+	cursor:pointer;
+}
+#slideleft {
+	background-color: #FFF;
+background-image: url(../images/left.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height:330px;
+}
+#slideleft:hover {
+	background-position:center top;
+}
+#slideright {
+	background-image: url(../images/right.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	 height:330px;
+}
+#slideright:hover {background-position:center top}
+
+
+#slider {
+	float:left; position:relative; overflow:auto; width:890px; height:500px
+	}
+
+
+
+#slider ul {
+	position:absolute;
+	list-style:none;
+	top:0px;
+	left:1px
+}
+#slider li {float:left; width:890px; height:500px}
+.pagination {
+	position:absolute;
+	top:16px;
+	right:45px;
+	list-style:none;
+	height:40px;
+	width: 106px;
+}
+.pagination li {float:left; cursor:pointer; height:8px; width:8px; background:#ccc; margin:4px 4px 0 0; border:1px solid #000}
+.pagination li:hover, li.current {background:#fff}
+#hidden {
+	text-decoration: none;
+	background-color: #FFF;
+	height: 301px;
+	width: 646px;
+	overflow: hidden;
+	position:absolute;
+	top:49px;
+	left: 138px;
+
+ 
+	
+	
+}
